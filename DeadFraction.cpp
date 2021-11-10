@@ -30,9 +30,7 @@ int main()
     n = (n*9) +(s[3]-'0');
     unsigned int d = 9*pow10(i-4);
     unsigned int f = gcd(n,d);
-    n = n/f;
-    d = d/f;
-    std::cout << n << "/" << d << std::endl;
+    std::cout << n/f << "/" << d/f << std::endl;
     std::cin >> s;
   }
 }
